@@ -3,7 +3,7 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-@app.post("your-app-url.onrender.com")
+@app.post("https://your-app-url-onrender-com.onrender.com")
 
 def process_order():
     return{'order':[
